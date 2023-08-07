@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="./download__11_-removebg-preview.png" type="image/x-icon">
+
+    <!-- style link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- javascript link  -->
+    <script src="./index.js"></script>
+
+    <title>user form</title>
+</head>
+
+<body>
+
+    
+    <h1>users details</h1>
+
+    <div class="container" style="display: flex; margin: 10px; flex-wrap: wrap;">
+        <section>
+            <h3> Data entry</h3>
+            <form action="">
+                <label for="name">Name :</label>
+                <input type="text"  required  id="name">
+                <label for="name">Age :</label>
+                <input type="number"  required id="age">
+                <label for="name">address :</label>
+                <input type="text"  required id="address" >
+                <label for="name">email :</label>
+                <input type="email"  required id="email" >
+                <button value="submit" onclick="addData()" style="background-color: white; color: black;font-weight: bold;">Add user</button>
+                <button value="showData" onclick="showData()" style="background-color: white; color: black;font-weight: bold;">generate user list</button>
+                <button value="showData" onclick="delData()" style="background-color: white; color: black;font-weight: bold;">delete user</button>
+            </form>
+            
+        </section>
+        <section>
+          
+                <table>
+                    <h3> data record</h3>
+                    <div id="counter"></div>
+    
+                    <tr>
+                        <th>name </th>
+                        <th>age </th>
+                        <th>address </th>
+                        <th>email </th>
+                    </tr>
+                    <tbody id="recordBody">
+                        
+                    </tbody>
+                    
+        
+                </table>
+            
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(201, 210, 228); */
+    /* background-image: linear-gradient(to left, #ffefba, #ffffff); */
+    text-transform: capitalize;
+    overflow:scroll;
+
+}
+
+body h1,
+h3 {
+    text-align: center;
+    text-decoration: solid underline;
+    text-transform: capitalize;
+    color: black;
+
+
+}
+
+form {
+    /* border: 1px solid black; */
+    display: block;
+    width: 350px;
+    height: max-content;
+    /* background-color: rgba(54, 52, 52, 0.677); */
+    border-radius: 5px;
+    /* margin: 25px auto; */
+    margin-left: 65%;
+    background-image: linear-gradient(to right, #19abd0, #8ac1c1);
+    box-shadow: 5px 5px 5px rgb(118, 207, 248);
+  
+}
+
+form label {
+    display: block;
+    font-size: large;
+    color: #f8f5f4;
+    padding: 5px;
+    margin-left: 3px;
+
+}
+
+form input {
+    width: 80%;
+    padding: 8px;
+    margin: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    /* border-bottom: 1px solid rgb(228, 14, 14); */
+    text-align: center;
+    margin-top: 1px;
+
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    display: block;
+    margin: 10px auto ;
+    width: 50%;
+    height: max-content;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+table {
+   
+  
+    width: 300px;
+    height: max-content;
+    background-color: transparent;
+     border-radius : 5px;
+    margin: 10px 320px;
+
+
+}
+
+table th {
+    color: black;
+    border: 1px solid black;
+}
+
+
+table td {
+    text-align: center;
+    color: blue;
+    text-transform: lowercase;
+    border: 1px solid black;
+
+}
+#counter{
+    text-align: center;
+    color: blueviolet;
+}
+
+@media  only screen and (max-width: 375px){
+ /* session{
+    display: block;
+    
+ } */
+  
+ 
+ form {
+    /* margin-left: 10px; */
+    width: 375px;
+    /* margin: 1px auto !important; */
+ }
+table{
+    width: 375px;
+    /* margin: 1px auto !important; */
+} 
+form button{
+    display: block;
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+}
+@media  only screen and (max-width: 425px){
+    session{
+        display: block;
+        margin: 0px !important;
+     } 
+     .container{
+        display: block;
+        margin: 0px !important;
+     }
+    form {
+       width: 425;
+       /* margin:2px auto; */
+    }
+  
+    
+   table{
+       width: 625px; 
+      margin: 1px auto !important; 
+   } 
+   form button{
+       display: block;
+       width: 70%;
+       margin: 5px auto;
+       text-align: center;
+       border-radius: 5px;
+   }
+   .container{
+    display: block;
+    margin: 0px !important;
+ }
+   
+   }
